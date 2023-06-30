@@ -12,7 +12,7 @@ import (
 func Execute() {
 	var rootCmd = &cobra.Command{
 		Use:   "ratelctl",
-		Short: "ratelctl 用于快速生成项目模板",
+		Short: "ratelctl 脚手架",
 	}
 
 	rootCmd.Version = fmt.Sprintf(

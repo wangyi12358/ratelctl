@@ -13,8 +13,9 @@ import (
 )
 
 var Cmd = &cobra.Command{
-	Use: "init",
-	Run: InitCmd,
+	Use:   "init",
+	Short: "快速生成项目模板",
+	Run:   InitCmd,
 }
 
 func InitCmd(_ *cobra.Command, _ []string) {
