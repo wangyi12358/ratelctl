@@ -1,6 +1,6 @@
 package initial
 
-import "ratelctl/pkg/array"
+import "github.com/wangyi12358/ratelctl/pkg/array"
 
 type Project struct {
 	Name string

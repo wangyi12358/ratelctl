@@ -6,9 +6,9 @@ import (
 	"github.com/briandowns/spinner"
 	"github.com/gookit/color"
 	"github.com/spf13/cobra"
+	"github.com/wangyi12358/ratelctl/pkg/array"
 	"os"
 	"os/exec"
-	"ratelctl/pkg/array"
 	"time"
 )
 

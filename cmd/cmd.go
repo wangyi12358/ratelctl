@@ -3,9 +3,9 @@ package cmd
 import (
 	"fmt"
 	"github.com/spf13/cobra"
+	"github.com/wangyi12358/ratelctl/cmd/initial"
+	"github.com/wangyi12358/ratelctl/pkg/version"
 	"os"
-	"ratelctl/cmd/initial"
-	"ratelctl/pkg/version"
 	"runtime"
 )
 
