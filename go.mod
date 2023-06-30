@@ -1,4 +1,4 @@
-module ratelctl
+module github.com/wangyi12358/ratelctl
 
 go 1.20
 
