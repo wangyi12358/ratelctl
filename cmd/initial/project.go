@@ -13,6 +13,10 @@ var projects = []Project{
 		Url:  "https://github.com/wangyi12358/swc-admin.git",
 	},
 	{
+		Name: "Nest Admin",
+		Url:  "https://github.com/wangyi12358/nest-admin-example.git",
+	},
+	{
 		Name: "Go Gin",
 		Url:  "https://github.com/wangyi12358/go-gin-example.git",
 	},
