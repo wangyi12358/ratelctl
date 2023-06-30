@@ -4,13 +4,13 @@ Ratelctl 是一款能够快速初始化项目的命令行工具，它能够帮�
 
 ## 安装
 ```shell
-$ go install github.com/wangyi12358/ratelctl@latest
+go install github.com/wangyi12358/ratelctl@latest
 ```
 
 ## 使用
 使用 ratelctl 来初始化你的项目
 ```shell
-$ ratelctl init
+ratelctl init
 ```
 
 ## 支持的模版项目
