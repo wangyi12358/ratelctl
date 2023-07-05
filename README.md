@@ -1,19 +1,18 @@
 # Ratelctl
-Ratelctl 是一款能够快速初始化项目的命令行工具，它能够帮助你快速初始化项目，让你专注于业务开发。  
-并且会集成常用工具、配置、业务逻辑，让你的项目更加完善。
+Ratelctl is a command-line tool that can quickly initialize projects. It can help you quickly initialize projects and let you focus on business development.  
+It will integrate common tools, configuration, and business logic to make your project more perfect.
 
-## 安装
+## Install
 ```shell
 go install github.com/wangyi12358/ratelctl@latest
 ```
 
-## 使用
-使用 ratelctl 来初始化你的项目
+## Usage
 ```shell
 ratelctl init
 ```
 
-## 支持的模版项目
+## Supported template projects
 
 - React project
 - React admin project
