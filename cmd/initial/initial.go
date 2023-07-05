@@ -7,6 +7,8 @@ import (
 	"github.com/gookit/color"
 	"github.com/spf13/cobra"
 	"github.com/wangyi12358/ratelctl/pkg/array"
+	download_git_repo "github.com/wangyi12358/ratelctl/pkg/download-git-repo"
+	"github.com/wangyi12358/ratelctl/pkg/zip"
 	"os"
 	"os/exec"
 	"time"
@@ -28,10 +30,16 @@ func InitCmd(_ *cobra.Command, _ []string) {
 		return p.Name == config.Project
 	})
 	s := spinner.New(spinner.CharSets[11], 100*time.Millisecond)
-	s.Suffix = " Cloning project template"
+	s.Suffix = " Downloading project template"
 	s.Start()
-	if err := exec.Command("git", "clone", selected.Url, config.Name).Run(); err != nil {
-		fmt.Println(err.Error())
+	download_git_repo.Download(selected.Url, config.Name)
+	if err := zip.Unzip(config.Name); err != nil {
+		fmt.Printf("unzip error: %v\n", err.Error())
+		s.Stop()
+		os.Exit(0)
+	}
+	if err := exec.Command("rm", "-rf", config.Name+".zip").Run(); err != nil {
+		fmt.Printf("rm zip file error: %v\n", err.Error())
 		s.Stop()
 		os.Exit(0)
 	}

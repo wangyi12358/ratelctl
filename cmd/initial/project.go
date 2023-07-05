@@ -10,7 +10,7 @@ type Project struct {
 var projects = []Project{
 	{
 		Name: "React Admin",
-		Url:  "https://github.com/wangyi12358/swc-admin.git",
+		Url:  "swc-admin",
 	},
 	{
 		Name: "Nest Admin",
