@@ -14,15 +14,15 @@ var projects = []Project{
 	},
 	{
 		Name: "Nest Admin",
-		Url:  "https://github.com/wangyi12358/nest-admin-example.git",
+		Url:  "nest-admin-example",
 	},
 	{
 		Name: "Go Gin",
-		Url:  "https://github.com/wangyi12358/go-gin-example.git",
+		Url:  "go-gin-example",
 	},
 	{
 		Name: "Go-zero",
-		Url:  "https://github.com/wangyi12358/go-zero-micro.git",
+		Url:  "go-zero-micro",
 	},
 }
 
