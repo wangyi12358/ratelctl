@@ -23,7 +23,7 @@ func IsVersionGreaterThan(version, target string) bool {
 	} else if versionNumber < targetVersionNumber {
 		return false
 	} else {
-		// unchecked case, in normal, the goctl version does not contain suffix in release.
+		// unchecked case, in normal, the Ratelctl version does not contain suffix in release.
 		return tag[versionTag] > tag[targetTag]
 	}
 }
