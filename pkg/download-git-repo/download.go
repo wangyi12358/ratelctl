@@ -7,6 +7,7 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+	"strings"
 )
 
 const USER = "wangyi12358"
@@ -64,9 +65,12 @@ func unzip(tmpFile *os.File, name string) {
 }
 
 func saveFile(file *zip.File, name string) error {
-	filePath := filepath.Join(name, file.Name)
+	// 舍去zip文件中的第一层目录
+	index := strings.Index(file.Name, "/")
+	filePath := filepath.Join(name, file.Name[index:])
 
 	if file.FileInfo().IsDir() {
+		// 跳过目录
 		return nil
 	}
 
