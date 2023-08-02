@@ -1,7 +1,7 @@
 package array
 
-func Map[T interface{}, V interface{}](array []T, callback func(T) V) []V {
-	var result []V
+func Map[T interface{}, R interface{}](array []T, callback func(T) R) []R {
+	var result []R
 	for _, v := range array {
 		result = append(result, callback(v))
 	}
@@ -15,4 +15,14 @@ func Find[T interface{}](array []T, callback func(T) bool) *T {
 		}
 	}
 	return nil
+}
+
+func Filter[T interface{}](array []T, callback func(T) bool) []T {
+	var result []T
+	for _, v := range array {
+		if callback(v) {
+			result = append(result, v)
+		}
+	}
+	return result
 }

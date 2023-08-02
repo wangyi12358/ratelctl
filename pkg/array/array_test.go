@@ -31,3 +31,13 @@ func TestMap(t *testing.T) {
 		t.Error("Map failed, expected [test testing], got ", result)
 	}
 }
+
+func TestFilter(t *testing.T) {
+	var array = []int{1, 2, 3, 4, 5}
+	result := Filter(array, func(v int) bool {
+		return v > 3
+	})
+	if reflect.DeepEqual(result, []int{4, 5}) == false {
+		t.Error("Filter failed, expected [4 5], got ", result)
+	}
+}

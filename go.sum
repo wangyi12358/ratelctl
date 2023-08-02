@@ -36,6 +36,8 @@ github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+
 github.com/stretchr/testify v1.6.1/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 github.com/wangyi12358/go-publish-example v0.0.2 h1:zJn48N+bGXNSr0v+oDurvsDITpvHKoLkfulg6Sx/wZQ=
 github.com/wangyi12358/go-publish-example v0.0.2/go.mod h1:YJmh7Xr1RSQfX7zX64c9KPduJjSS3MulxbOfmzmVf2o=
+github.com/wangyi12358/go-publish-example/tools/cli v0.0.0-20230711061814-43fe22494596 h1:gj1dZqkvt5yMxHX4T7vICk9+g6hrj+8SZ/4kCapehfU=
+github.com/wangyi12358/go-publish-example/tools/cli v0.0.0-20230711061814-43fe22494596/go.mod h1:j2cEbGPrM5p5zwW/appnozghMwZWuYmS/xb0rOmyUGw=
 github.com/xo/terminfo v0.0.0-20220910002029-abceb7e1c41e h1:JVG44RsyaB9T2KIHavMF/ppJZNG9ZpyihvCd0w101no=
 github.com/xo/terminfo v0.0.0-20220910002029-abceb7e1c41e/go.mod h1:RbqR21r5mrJuqunuUZ/Dhy/avygyECGrLceyNeo4LiM=
 github.com/yuin/goldmark v1.4.13/go.mod h1:6yULJ656Px+3vBD8DxQVa3kxgyrAnzto9xy5taEt/CY=
