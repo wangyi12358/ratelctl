@@ -7,7 +7,7 @@ import (
 	"github.com/gookit/color"
 	"github.com/spf13/cobra"
 	"github.com/wangyi12358/ratelctl/pkg/array"
-	download_git_repo "github.com/wangyi12358/ratelctl/pkg/download-git-repo"
+	download_git_repo "github.com/wangyi12358/ratelctl/pkg/download_git_repo"
 	"os"
 	"time"
 )
