@@ -49,6 +49,7 @@ func unzip(tmpFile *os.File, name string) {
 
 	// 打开ZIP文件
 	zipReader, err := zip.OpenReader(tmpFile.Name())
+	
 	if err != nil {
 		fmt.Errorf("打开ZIP文件错误: %s", err)
 		os.Exit(0)

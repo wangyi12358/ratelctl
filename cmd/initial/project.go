@@ -24,6 +24,10 @@ var projects = []Project{
 		Name: "Go-zero",
 		Url:  "go-zero-micro",
 	},
+	{
+		Name: "React H5",
+		Url:  "react-h5-template",
+	},
 }
 
 var names = array.Map(projects, func(project Project) string {
