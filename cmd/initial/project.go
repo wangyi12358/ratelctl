@@ -9,23 +9,27 @@ type Project struct {
 
 var projects = []Project{
 	{
-		Name: "React Admin",
+		Name: "React, Admin , Ant Design, RESTful",
 		Url:  "swc-admin",
 	},
 	{
-		Name: "Nest Admin",
+		Name: "Nest.js, Monolithic, RESTful",
 		Url:  "nest-admin-example",
 	},
 	{
-		Name: "Go Gin",
+		Name: "Nest.js, Monolithic, GraphQL",
+		Url:  "nestjs-graphql-single",
+	},
+	{
+		Name: "Go, Gin, RESTful",
 		Url:  "go-gin-example",
 	},
 	{
-		Name: "Go-zero",
+		Name: "Go, Go-Zero, Microservice",
 		Url:  "go-zero-micro",
 	},
 	{
-		Name: "React H5",
+		Name: "React, H5",
 		Url:  "react-h5-template",
 	},
 }
