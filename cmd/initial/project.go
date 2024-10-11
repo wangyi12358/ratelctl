@@ -14,11 +14,11 @@ var projects = []Project{
 	},
 	{
 		Name: "Nest.js, Monolithic, RESTful",
-		Url:  "nest-admin-example",
+		Url:  "nestjs-graphql-monolith",
 	},
 	{
 		Name: "Nest.js, Monolithic, GraphQL",
-		Url:  "nestjs-graphql-single",
+		Url:  "nestjs-restful-monolith",
 	},
 	{
 		Name: "Go, Gin, RESTful",
@@ -27,6 +27,10 @@ var projects = []Project{
 	{
 		Name: "Go, Go-Zero, Microservice",
 		Url:  "go-zero-micro",
+	},
+	{
+		Name: "Go, gRPC, Microservice",
+		Url:  "go-grpc-microservices",
 	},
 	{
 		Name: "React, H5",
