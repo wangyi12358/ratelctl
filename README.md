@@ -14,7 +14,7 @@ ratelctl init
 
 ## Supported template projects
 
-- React project
+- React project1
 - React admin project
 - Nestjs project
 - Go Gin project
